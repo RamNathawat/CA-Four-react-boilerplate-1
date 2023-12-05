@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+
+.body{
+    height: 100vh;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modeBtn{
+    padding: 9px 15px;
+    border-radius: 17px;
+    font-size: 17px;
+}
+
+.questionBox{
+    background-color: #CAD9FF;
+    padding: 50px;
+    margin:0% 23.5%;
+    border-radius: 20px;
+
+}
+
+.option{
+    border: 0px solid black;
+    margin: 10px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    background-color: aliceblue; 
+    cursor: pointer;
+}
+
+.hlbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight,.removehighlight{
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.highlight{
+    background-color: rgb(255, 89, 89);
+}
+.removehighlight{
+    background-color: rgb( 89, 89 , 255) ;
+}
+
+.restart{
+    background: linear-gradient(to right, rgb(255, 89, 89), rgb(89, 89, 255));
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
