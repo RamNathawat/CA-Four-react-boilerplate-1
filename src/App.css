@@ -16,6 +16,10 @@ body{
     padding: 9px 15px;
     border-radius: 17px;
     font-size: 17px;
+    background-color: black;
+    color: white;
+    font-weight:700;
+    border: 1px solid black;
 }
 
 .questionBox{
@@ -45,6 +49,7 @@ body{
     border-radius: 10px;
     font-weight: 700;
     font-size: 17px;
+    border: 1px solid black;
 }
 .highlight{
     background-color: rgb(255, 89, 89);

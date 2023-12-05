@@ -25,7 +25,7 @@ function App() {
     <div style={{background: bgColor}} className="body">
       <div className="head">
         <h1 style={{color: textColor}}>Kalvium</h1>
-        <button onClick={backgroundchange} className="modeBtn" style={{color: textColor , background: bgColor , borderColor: textColor}}>{color?'Light':'Dark'}</button>
+        <button onClick={backgroundchange} className="modeBtn">{color?'Light':'Dark'}</button>
       </div>
       <div className="questionBox">
         <QuestionBox />
