@@ -31,13 +31,18 @@ body{
 }
 
 .option{
-    border: 0px solid black;
+    border: 0px;
     margin: 10px;
     padding: 7px 10px;
     border-radius: 10px;
     background-color: aliceblue; 
     cursor: pointer;
 }
+    .option:hover{
+        background-color: #84a6fb;
+        border: 1px solid rgb(93, 93, 255);
+        transition:450ms;
+    }
 
 .hlbox{
     display: flex;
@@ -51,6 +56,12 @@ body{
     font-size: 17px;
     border: 1px solid black;
 }
+    .highlight:hover{
+        background-color: rgb(254, 157, 157) ;
+    }
+    .removehighlight:hover{
+        background-color: rgb( 157, 157 , 254) ;
+    }
 .highlight{
     background-color: rgb(255, 89, 89);
 }
@@ -65,3 +76,6 @@ body{
     font-weight: 700;
     font-size: 25px;
 }
+    .restart:hover{
+        background: linear-gradient(to right, rgb(255, 125, 125), rgb(125, 125, 255))
+    }

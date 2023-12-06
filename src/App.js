@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div style={{background: bgColor}} className="body">
+    <div style={{background: bgColor }} className="body">
       <div className="head">
         <h1 style={{color: textColor}}>Kalvium</h1>
         <button onClick={backgroundchange} className="modeBtn">{color?'Light':'Dark'}</button>
