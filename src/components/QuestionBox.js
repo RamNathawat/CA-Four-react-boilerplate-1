@@ -8,8 +8,8 @@ export default function QuestionBox() {
   let [questionNo,setquestionNo]=useState(1)
   let [count,setcount]=useState(1)
   let [score,setscore]=useState(0)
-  let blue='#6066FF'
-  let [highlight,sethighlight]=useState('blue')
+  let grey="#555555"
+  let [highlight,sethighlight]=useState(grey)
   
   function counts(item){
     setcount(count+1)
@@ -21,13 +21,14 @@ export default function QuestionBox() {
   }
   
   function removehighlight(){
-    sethighlight(blue)
+    let grey="#555555"
+    sethighlight(grey)
     
   }
 
   function highlights(){
-    let red="#CF5252"
-    sethighlight(red)
+    let blue='#3498db'
+    sethighlight(blue)
   }
 
   useEffect(() => {

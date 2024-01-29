@@ -14,7 +14,7 @@ function App() {
   function backgroundchange(){
     setcolor(!color)
     let white='#FFFFFF'
-    let gray='#747474'
+    let gray='#333333'
     let black='#000000'
     setbgColor(color?gray:white)
     settextColor(color?white:black)
@@ -24,12 +24,13 @@ function App() {
   return (
     <div style={{background: bgColor }} className="body">
       <div className="head">
-        <h1 style={{color: textColor}}>Kalvium</h1>
+        <h1 style={{color: textColor}}>Quizzify</h1>
         <button onClick={backgroundchange} className="modeBtn">{color?'Light':'Dark'}</button>
       </div>
       <div className="questionBox">
         <QuestionBox />
       </div>
+      
       
     </div>
 
